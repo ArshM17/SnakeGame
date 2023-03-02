@@ -32,10 +32,6 @@ function setup(){
 
 function draw(){
     if(stat==0){
-        //console.log("finish")
-        //background(0);
-        // div = createDiv('').size(100, 100);
-        // div.html("Game Over!"+"\n"+"Final Score:"+count);
         textSize(32);
         text('Game Over!', width/2-100, height/2);
         fill(0, 102, 153);
