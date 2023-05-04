@@ -20,7 +20,7 @@ function setup(){
     div = createDiv('').size(100, 100);
     div.html("Score:"+count);
     createCanvas(600,600);
-    frameRate(15);
+    frameRate(10);
     x = 150;
     y = width/2;
     for(let i = 0;i<size;i++){
